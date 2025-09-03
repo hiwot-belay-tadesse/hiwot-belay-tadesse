@@ -15,6 +15,9 @@ const App: React.FC = () => (
         fontSize: 16,
         fontFamily:
           "Maven Pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue'",
+        colorLink: "#800080",         // 👈 normal state
+        colorLinkHover: "#9400D3", // 👈 hover state
+        colorLinkActive: "",   // 👈 active/click state
       },
       components: {
         Layout: {

@@ -1,6 +1,7 @@
 const routes = [
-    'misc',
-    'test'
+  'cv',
+  // 'test'
+  'publications'
 ]
 
 const fs = require("fs-extra");
